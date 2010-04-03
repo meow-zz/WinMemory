@@ -1,0 +1,11 @@
+H:\Project\WinMemory\WinMemory\bin\Debug\WinMemory.exe
+H:\Project\WinMemory\WinMemory\bin\Debug\WinMemory.pdb
+H:\Project\WinMemory\WinMemory\obj\Debug\ResolveAssemblyReference.cache
+H:\Project\WinMemory\WinMemory\obj\Debug\WinMemory.frmMain.resources
+H:\Project\WinMemory\WinMemory\obj\Debug\WinMemory.Properties.Resources.resources
+H:\Project\WinMemory\WinMemory\obj\Debug\WinMemory.csproj.GenerateResource.Cache
+H:\Project\WinMemory\WinMemory\obj\Debug\WinMemory.exe
+H:\Project\WinMemory\WinMemory\obj\Debug\WinMemory.pdb
+H:\Project\WinMemory\WinMemory\obj\Debug\WinMemory.Form2.resources
+H:\Project\WinMemory\WinMemory\obj\Debug\WinMemory.Resources.frmNewGame.resources
+H:\Project\WinMemory\WinMemory\obj\Debug\WinMemory.AboutBox.resources

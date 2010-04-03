@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FD061BCF-B74B-4734-83F6-90675A6B73A0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinMemory</RootNamespace>
+    <AssemblyName>WinMemory</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form.Designer.cs">
+      <DependentUpon>Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Memory.cs" />
+    <Compile Include="MemoryObject.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form.resx">
+      <DependentUpon>Form.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\frmNewGame.resx">
+      <DependentUpon>frmNewGame.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Resources\frmNewGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\frmNewGame.Designer.cs">
+      <DependentUpon>frmNewGame.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\bild1.jpg" />
+    <None Include="Resources\bild1-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\bild2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild2-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\bild3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild3-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\bild4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild4-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild5-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild6-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild7-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild8-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild9-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild10-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild11-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild12-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild13-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild14-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild15-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild16-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild17-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild18-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild19-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bild20-s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
