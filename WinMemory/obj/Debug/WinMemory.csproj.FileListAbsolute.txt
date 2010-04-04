@@ -9,3 +9,4 @@ H:\Project\WinMemory\WinMemory\obj\Debug\WinMemory.pdb
 H:\Project\WinMemory\WinMemory\obj\Debug\WinMemory.Form2.resources
 H:\Project\WinMemory\WinMemory\obj\Debug\WinMemory.Resources.frmNewGame.resources
 H:\Project\WinMemory\WinMemory\obj\Debug\WinMemory.AboutBox.resources
+H:\Project\WinMemory\WinMemory\bin\Debug\WinMemory.exe.config
